@@ -1,0 +1,14 @@
+[run]
+source = app
+omit =
+    */test_*.py
+    */__pycache__/*
+    run.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
+
+[html]
+directory = htmlcov
